@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/计算机系统/操作系统/示例代码/03-进程/03-进程.iml" filepath="$PROJECT_DIR$/计算机系统/操作系统/示例代码/03-进程/03-进程.iml" />
+      <module fileurl="file://$PROJECT_DIR$/计算机系统/操作系统/示例代码/04-线程/04-线程.iml" filepath="$PROJECT_DIR$/计算机系统/操作系统/示例代码/04-线程/04-线程.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ComputerKnowledgeBase.iml" filepath="$PROJECT_DIR$/.idea/ComputerKnowledgeBase.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,6 +1,6 @@
 {
   "excludeMode": "Full",
-  "obsidianIgnoreContent": "",
+  "obsidianIgnoreContent": "AGENTS.md\r\n**/AGENTS.md\r\n\r\n# AI 工具会话和本地工作状态\r\n.claude/\r\n.claudian/\r\n.workbuddy/\r\n.smart-env/\r\n.trash/\r\n\r\n# GitHub 与启动器发布元数据不参与知识库索引\r\n.git/\r\n.github/\r\nlauncher/\r\n\r\n# 个人 Obsidian 状态和可能包含凭据的插件配置\r\n.obsidian/workspace.json\r\n.obsidian/workspace-mobile.json\r\n.obsidian/hotkeys.json\r\n.obsidian/plugins/*/data.json\r\n\r\n# 临时文件与日志\r\n*.log\r\n*.tmp\r\n*.bak\r\n",
   "shouldIgnoreExcludedFiles": true,
   "shouldIncludeGitIgnorePatterns": true
 }
