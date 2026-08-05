@@ -27,3 +27,6 @@ Thumbs.db
 
 # Per-user Obsidian plugin config (credential-bearing local state)
 .obsidian/plugins/*/data.json
+
+# WorkBuddy agent working files (project memory & backups stay local, not in the knowledge repo)
+.workbuddy/
