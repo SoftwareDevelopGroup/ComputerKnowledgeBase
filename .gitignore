@@ -20,3 +20,10 @@ Thumbs.db
 
 # Ignore Smart Environment folder
 .smart-env
+
+# JetBrains / IntelliJ IDE files (leaked from contributor local environments)
+.idea/
+*.iml
+
+# Per-user Obsidian plugin config (credential-bearing local state)
+.obsidian/plugins/*/data.json
