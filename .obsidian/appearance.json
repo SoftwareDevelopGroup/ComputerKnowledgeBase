@@ -3,8 +3,10 @@
     "computer-network-reading",
     "operating-system-reading",
     "data-structure-notes",
-    "microcomputer-course"
+    "microcomputer-course",
+    "thomas-calculus"
   ],
   "baseFontSizeAction": true,
-  "baseFontSize": 16
+  "baseFontSize": 15,
+  "accentColor": "#2e9aff"
 }

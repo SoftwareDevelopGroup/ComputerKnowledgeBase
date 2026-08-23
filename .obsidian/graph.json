@@ -1,5 +1,5 @@
 {
-  "collapse-filter": false,
+  "collapse-filter": true,
   "search": "",
   "showTags": false,
   "showAttachments": false,
@@ -8,28 +8,28 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "tag:#计算机科学引论  ",
+      "query": "tag:#Obsidian  ",
       "color": {
         "a": 1,
         "rgb": 14701138
       }
     },
     {
-      "query": "tag:#计算机网络  ",
+      "query": "tag:#托马斯微积分  ",
       "color": {
         "a": 1,
         "rgb": 14725458
       }
     },
     {
-      "query": "tag:#操作系统  ",
+      "query": "tag:#计算机科学引论  ",
       "color": {
         "a": 1,
         "rgb": 11657298
       }
     },
     {
-      "query": "tag:#数据结构  ",
+      "query": "tag:#操作系统  ",
       "color": {
         "a": 1,
         "rgb": 5431378
@@ -44,15 +44,15 @@
     }
   ],
   "collapse-display": true,
-  "showArrow": false,
+  "showArrow": true,
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1.51150519031142,
   "lineSizeMultiplier": 1,
   "collapse-forces": true,
-  "centerStrength": 0.277681660899654,
-  "repelStrength": 16.2110726643599,
+  "centerStrength": 0.250663903102533,
+  "repelStrength": 11.8718678044156,
   "linkStrength": 1,
   "linkDistance": 234,
-  "scale": 0.5087618855792121,
+  "scale": 0.13168724279833732,
   "close": true
 }

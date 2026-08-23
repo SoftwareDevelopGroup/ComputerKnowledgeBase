@@ -13,7 +13,7 @@ aliases: [MOC - 第9章, 第9章 PL/SQL程序设计]
 > [!info] 本章定位
 > 本章系统讲授 Oracle 专有的过程化扩展编程语言 **PL/SQL**（Procedural Language/SQL）。它在标准 SQL 之上增加了变量声明、过程控制（分支/循环）、异常处理与模块化封装能力，使数据库端能够承载复杂业务逻辑。本章内容包括：PL/SQL 块结构与基础语法、存储过程与函数的编写及权限管理、触发器（DML/DDL/INSTEAD OF）与显式/隐式/REF 游标、异常处理机制（预定义/非预定义/自定义异常）。PL/SQL 运行于 Oracle 服务器端，编译后执行，是 Oracle DBA 与后端开发者的必备技能——存储过程、触发器、包、对象类型方法均以 PL/SQL 实现。
 >
-> **前置知识**：[[MOC - 数据库原理]]（事务 ACID、SQL 基础 DML/DDL）、SQL SELECT/INSERT/UPDATE/DELETE 语法；**后续关联**：第10章性能优化中 SQL 调优与 PL/SQL 代码优化密切相关。
+> **前置知识**：数据库原理（事务 ACID、SQL 基础 DML/DDL）、SQL SELECT/INSERT/UPDATE/DELETE 语法；**后续关联**：第10章性能优化中 SQL 调优与 PL/SQL 代码优化密切相关。
 
 ## 学习路线图
 

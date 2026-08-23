@@ -11,7 +11,7 @@ aliases: [Oracle Database Administration, Oracle DBA, Oracle数据库]
 # MOC - Oracle数据库管理
 
 > [!info] 课程定位
-> Oracle数据库管理是数据库技术方向的核心专业课程，以 Oracle Database（Oracle 11g/12c/19c 主流版本）为实践平台，系统讲授 Oracle DBA 的**日常运维、体系结构、存储管理、安全控制、备份恢复与性能调优**六大核心能力。它在 [[MOC - 数据库原理]] 的关系模型理论与 SQL 基础之上，深入 Oracle 产品内部，解决"如何可靠、安全、高效地部署与运维企业级数据库"这一核心问题。课程的设计原则是：**凡涉及产品特性（如 RMAN、ASM、AWR、闪回、PL/SQL 自治事务），均明确标注为 Oracle 专有，不得描述为通用数据库规律；凡涉及高风险命令（DROP DATABASE、ALTER DATABASE 等），必须醒目标注风险等级与前提条件。**
+> Oracle数据库管理是数据库技术方向的核心专业课程，以 Oracle Database（Oracle 11g/12c/19c 主流版本）为实践平台，系统讲授 Oracle DBA 的**日常运维、体系结构、存储管理、安全控制、备份恢复与性能调优**六大核心能力。它在 数据库原理 的关系模型理论与 SQL 基础之上，深入 Oracle 产品内部，解决"如何可靠、安全、高效地部署与运维企业级数据库"这一核心问题。课程的设计原则是：**凡涉及产品特性（如 RMAN、ASM、AWR、闪回、PL/SQL 自治事务），均明确标注为 Oracle 专有，不得描述为通用数据库规律；凡涉及高风险命令（DROP DATABASE、ALTER DATABASE 等），必须醒目标注风险等级与前提条件。**
 
 ## 课程摘要
 
@@ -95,9 +95,9 @@ flowchart TD
 
 ## 先修与关联课程
 
-- **先修**：[[MOC - 数据库原理]]（关系模型、SQL 基础、事务 ACID、并发与封锁理论）、操作系统（Linux/Windows 服务与进程管理）、计算机网络（TCP/IP 监听端口 1521）
-- **后续**：[[MOC - 数据库开发技术]]（JDBC/MyBatis 连接 Oracle、SQL 高级编程）、Oracle 高可用与容灾（RAC 集群、Data Guard 备库、GoldenGate 同步，超出本课范围）
-- 关联延伸：[[MOC - Web开发技术]]（后端应用连接 Oracle 场景）、[[软件工程]]（数据库部署与变更纳入软件生命周期）
+- **先修**：数据库原理（关系模型、SQL 基础、事务 ACID、并发与封锁理论）、操作系统（Linux/Windows 服务与进程管理）、计算机网络（TCP/IP 监听端口 1521）
+- **后续**：数据库开发技术（JDBC/MyBatis 连接 Oracle、SQL 高级编程）、Oracle 高可用与容灾（RAC 集群、Data Guard 备库、GoldenGate 同步，超出本课范围）
+- 关联延伸：Web开发技术（后端应用连接 Oracle 场景）、[[软件工程]]（数据库部署与变更纳入软件生命周期）
 
 ## 风险提示与操作规范
 

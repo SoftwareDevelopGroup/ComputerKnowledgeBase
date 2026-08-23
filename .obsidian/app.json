@@ -4,9 +4,7 @@
   "showUnsupportedFiles": true,
   "trashOption": "none",
   "uriCallbacks": true,
-  "userIgnoreFilters": [
-    "Templates/"
-  ],
+  "userIgnoreFilters": null,
   "spellcheck": false,
   "showLineNumber": false,
   "attachmentFolderPath": "./Attachments",
@@ -16,5 +14,6 @@
     "landscape": false,
     "margin": "0",
     "downscalePercent": 100
-  }
+  },
+  "newFileLocation": "current"
 }
