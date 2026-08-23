@@ -1,7 +1,6 @@
 ---
 domain: 计算机系统
 type: MOC
-node_size: 65
 status: 已完成
 course: 操作系统
 cssclasses:

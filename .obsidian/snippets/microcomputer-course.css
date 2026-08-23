@@ -2,7 +2,6 @@
 
 .markdown-preview-view.microcomputer-course,
 .markdown-source-view.microcomputer-course {
-  --file-line-width: 960px;
   --micro-accent: color-mix(in srgb, var(--interactive-accent) 78%, var(--color-cyan));
   --micro-accent-soft: color-mix(in srgb, var(--micro-accent) 11%, transparent);
   --micro-border: color-mix(in srgb, var(--text-muted) 28%, transparent);
@@ -180,11 +179,6 @@
 }
 
 @media (max-width: 700px) {
-  .markdown-preview-view.microcomputer-course,
-  .markdown-source-view.microcomputer-course {
-    --file-line-width: 100%;
-  }
-
   .markdown-preview-view.microcomputer-course h2 {
     padding-right: 0.35em;
     font-size: 1.35em;

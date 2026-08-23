@@ -1,0 +1,19 @@
+/* 全库 Markdown 正文统一可读宽度。 */
+
+body {
+  --knowledge-note-line-width: 760px;
+}
+
+.markdown-preview-view .markdown-preview-sizer,
+.markdown-source-view .cm-sizer {
+  width: 100%;
+  max-width: var(--knowledge-note-line-width) !important;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (max-width: 700px) {
+  body {
+    --knowledge-note-line-width: 100%;
+  }
+}

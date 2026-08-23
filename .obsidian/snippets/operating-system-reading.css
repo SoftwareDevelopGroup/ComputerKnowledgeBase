@@ -2,7 +2,6 @@
 
 .markdown-preview-view.os-note,
 .markdown-source-view.os-note {
-  --file-line-width: 900px;
   --os-accent: color-mix(in srgb, var(--interactive-accent) 82%, var(--color-cyan));
   --os-soft-accent: color-mix(in srgb, var(--os-accent) 11%, transparent);
   --os-border: color-mix(in srgb, var(--text-muted) 25%, transparent);

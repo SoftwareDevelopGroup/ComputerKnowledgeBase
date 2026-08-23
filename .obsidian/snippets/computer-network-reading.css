@@ -2,7 +2,6 @@
 
 .markdown-preview-view.network-note,
 .markdown-source-view.network-note {
-  --file-line-width: 880px;
   --network-soft-accent: color-mix(in srgb, var(--interactive-accent) 12%, transparent);
   --network-border: color-mix(in srgb, var(--text-muted) 24%, transparent);
   --network-shadow: 0 8px 24px color-mix(in srgb, var(--background-modifier-box-shadow) 35%, transparent);
@@ -168,10 +167,6 @@
   margin: 2.6em auto;
   border: 0;
   background: linear-gradient(90deg, transparent, var(--network-border) 15%, var(--network-border) 85%, transparent);
-}
-
-.markdown-preview-view.network-note.exam-note {
-  --file-line-width: 960px;
 }
 
 .markdown-preview-view.network-note.exam-note h2 {

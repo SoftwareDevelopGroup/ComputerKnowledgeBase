@@ -5,7 +5,6 @@
 
 .markdown-preview-view.data-structure-note,
 .markdown-source-view.data-structure-note {
-  --file-line-width: 920px;
   --ds-accent: color-mix(in srgb, var(--interactive-accent) 76%, var(--color-cyan));
   --ds-accent-2: color-mix(in srgb, var(--interactive-accent) 68%, var(--color-purple));
   --ds-soft: color-mix(in srgb, var(--ds-accent) 11%, transparent);
@@ -14,11 +13,6 @@
   --ds-border-strong: color-mix(in srgb, var(--ds-accent) 34%, var(--ds-border));
   --ds-surface: color-mix(in srgb, var(--background-secondary) 62%, transparent);
   --ds-shadow: 0 10px 28px color-mix(in srgb, var(--background-modifier-box-shadow) 32%, transparent);
-}
-
-.markdown-preview-view.data-structure-moc,
-.markdown-source-view.data-structure-moc {
-  --file-line-width: 1040px;
 }
 
 .markdown-preview-view.data-structure-note .markdown-preview-sizer {
@@ -362,11 +356,6 @@
 }
 
 @media (max-width: 760px) {
-  .markdown-preview-view.data-structure-note,
-  .markdown-source-view.data-structure-note {
-    --file-line-width: 100%;
-  }
-
   .markdown-preview-view.data-structure-note h1 {
     font-size: 1.85em;
   }
@@ -405,11 +394,6 @@
 }
 
 /* 完整解答：题目、选项、答案与推导形成稳定的四层阅读结构。 */
-.markdown-preview-view.data-structure-solutions,
-.markdown-source-view.data-structure-solutions {
-  --file-line-width: 1020px;
-}
-
 .markdown-preview-view.data-structure-solutions h4,
 .markdown-source-view.data-structure-solutions .HyperMD-header-4 {
   margin-top: 1.8em;
@@ -482,11 +466,6 @@
 }
 
 /* 习题集：强化题型、题干、选项和插图题注的层次。 */
-.markdown-preview-view.data-structure-exercises,
-.markdown-source-view.data-structure-exercises {
-  --file-line-width: 980px;
-}
-
 .markdown-preview-view.data-structure-exercises h2 {
   margin-top: 2.8em;
 }

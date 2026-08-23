@@ -2,19 +2,9 @@
 
 .markdown-preview-view.thomas-calculus,
 .markdown-source-view.thomas-calculus {
-  --file-line-width: 820px;
   --thomas-accent: color-mix(in srgb, var(--interactive-accent) 76%, var(--color-blue));
   --thomas-accent-soft: color-mix(in srgb, var(--thomas-accent) 10%, transparent);
   --thomas-border: color-mix(in srgb, var(--text-muted) 25%, transparent);
-}
-
-/* 无论全局是否开启“可读行长度”，都限制课程正文在宽屏下的最大宽度。 */
-.markdown-preview-view.thomas-calculus .markdown-preview-sizer,
-.markdown-source-view.thomas-calculus .cm-sizer {
-  width: 100%;
-  max-width: var(--file-line-width) !important;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 .markdown-source-view.thomas-calculus .cm-line,
@@ -129,11 +119,6 @@
 }
 
 @media (max-width: 700px) {
-  .markdown-preview-view.thomas-calculus,
-  .markdown-source-view.thomas-calculus {
-    --file-line-width: 100%;
-  }
-
   .markdown-preview-view.thomas-calculus h2 {
     padding-right: 0.3em;
     font-size: 1.32em;
